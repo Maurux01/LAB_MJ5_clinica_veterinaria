@@ -1,8 +1,8 @@
 public class Ave extends Animal {
     private double pesoGramos;
 
-    public Ave(String nombre, int edad, String nombreDueno, double pesoGramos) {
-        super(nombre, edad, nombreDueno);
+    public Ave(String nombre, int edad, String nombreDueño, double pesoGramos) {
+        super(nombre, edad, nombreDueño);
         this.pesoGramos = pesoGramos;
     }
 

@@ -5,8 +5,8 @@ public class Perro extends Animal implements Vacunable, Asegurable {
     private String raza;
     private List<String> vacunas = new ArrayList<>();
 
-    public Perro(String nombre, int edad, String nombreDueno, String raza) {
-        super(nombre, edad, nombreDueno);
+    public Perro(String nombre, int edad, String nombreDueño, String raza) {
+        super(nombre, edad, nombreDueño);
         this.raza = raza;
     }
 

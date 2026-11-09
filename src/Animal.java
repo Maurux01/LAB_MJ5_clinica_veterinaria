@@ -1,12 +1,12 @@
 public abstract class Animal {
     protected String nombre;
     protected int edad;
-    protected String nombreDueno;
+    protected String nombreDueño;
 
-    public Animal(String nombre, int edad, String nombreDueno) {
+    public Animal(String nombre, int edad, String nombreDueño) {
         this.nombre = nombre;
         this.edad = edad;
-        this.nombreDueno = nombreDueno;
+        this.nombreDueño = nombreDueño;
     }
 
     public abstract double calcularCostoConsulta();
@@ -14,7 +14,7 @@ public abstract class Animal {
     public void imprimirFicha() {
         System.out.println("=== Ficha de " + nombre + " ===");
         System.out.println("Edad: " + edad);
-        System.out.println("Dueno: " + nombreDueno);
+        System.out.println("Dueno: " + nombreDueño);
         System.out.println("Costo de consulta: " + calcularCostoConsulta());
     }
 }

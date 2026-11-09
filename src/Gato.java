@@ -5,8 +5,8 @@ public class Gato extends Animal implements Vacunable, Asegurable {
     private boolean esEsterilizado;
     private List<String> vacunas = new ArrayList<>();
 
-    public Gato(String nombre, int edad, String nombreDueno, boolean esEsterilizado) {
-        super(nombre, edad, nombreDueno);
+    public Gato(String nombre, int edad, String nombreDueño, boolean esEsterilizado) {
+        super(nombre, edad, nombreDueño);
         this.esEsterilizado = esEsterilizado;
     }
 

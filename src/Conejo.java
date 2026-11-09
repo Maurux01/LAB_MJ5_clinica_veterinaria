@@ -1,6 +1,6 @@
 public class Conejo extends Animal {
-    public Conejo(String nombre, int edad, String nombreDueno) {
-        super(nombre, edad, nombreDueno);
+    public Conejo(String nombre, int edad, String nombreDueño) {
+        super(nombre, edad, nombreDueño);
     }
 
     @Override
